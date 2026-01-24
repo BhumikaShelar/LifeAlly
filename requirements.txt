@@ -4,5 +4,9 @@ Flask-Migrate==4.0.4
 python-dotenv==1.0.0
 psycopg[binary]==3.2.10
 Werkzeug==2.3.6
-
-
+flask-cors
+joblib
+pandas
+langchain
+langchain-google-genai
+google-generativeai
