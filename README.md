@@ -692,6 +692,18 @@ MIT License · Copyright (c) 2026 · LifeAlly
 
 **Built with ❤️ using Python, Flask, React, and Google Gemini**
 
+---
+
+### 👩‍💻 Author
+
+**Bhumika Shelar** — [github.com/BhumikaShelar](https://github.com/BhumikaShelar)
+
+### 🤝 Contributors
+
+**Karan Shelar** — [github.com/Edge-Explorer](https://github.com/Edge-Explorer)
+
+---
+
 *LifeAlly — README v2.0.0 · February 2026*
 
 </div>
