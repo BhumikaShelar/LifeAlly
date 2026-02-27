@@ -1,25 +1,84 @@
-# Python dependencies
+# ───────────────────────────────────────────
+# Python
+# ───────────────────────────────────────────
 venv/
 __pycache__/
 *.py[cod]
 *$py.class
-.ipynb_checkpoints/
+*.pyo
+*.pyd
+.Python
 
+# ───────────────────────────────────────────
+# Environment & Secrets  ← NEVER commit these
+# ───────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+*.env
+
+# ───────────────────────────────────────────
+# ML Models  (huge binary files — GitHub 100MB limit)
+# ───────────────────────────────────────────
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# ───────────────────────────────────────────
+# Jupyter Notebooks artifacts
+# ───────────────────────────────────────────
+.ipynb_checkpoints/
+notebooks/healthy_predictions.csv
+
+# ───────────────────────────────────────────
 # Database
+# ───────────────────────────────────────────
 instance/
 *.db
 *.sqlite3
+*.sql
 
-# Environment variables
-.env
-check_bhumika.py
-
-# Node.js dependencies
+# ───────────────────────────────────────────
+# Node.js / Frontend
+# ───────────────────────────────────────────
 node_modules/
-
-# Frontend builds
 dist/
 build/
+.cache/
+*.tsbuildinfo
 
-# macOS system files
+# ───────────────────────────────────────────
+# Debug / Test / Scratch files
+# ───────────────────────────────────────────
+check_bhumika.py
+check_bhumika_example.py
+testing_gemini.py
+
+# ───────────────────────────────────────────
+# OS generated files
+# ───────────────────────────────────────────
 .DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ───────────────────────────────────────────
+# Logs
+# ───────────────────────────────────────────
+*.log
+logs/
+
+# ───────────────────────────────────────────
+# IDE / Editor
+# ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
